@@ -196,7 +196,21 @@ button:hover {
 }
 
 .footer {
-  padding: 60px 0;
+  padding-top: 60px;
+}
+
+.footer-list {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.footer-items {
+  margin-bottom: 9px;
+}
+
+.mail-footer {
+  display: block;
+  margin-bottom: 9px;
 }
 
 .hero {

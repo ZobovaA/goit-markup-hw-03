@@ -250,11 +250,19 @@ button.button-hero {
 .main-lis-items:not(:last-child) {
   margin-right: 30px;
 }
+.main-section1 {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.main-section2 {
+  padding-top: 94px;
+}
 
 .title2 {
+  /* padding-top: 94px; */
   margin-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
 }
 
 .out-team-list {

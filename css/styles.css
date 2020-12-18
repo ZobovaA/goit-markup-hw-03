@@ -34,24 +34,6 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
-.main-nav {
-  display: flex;
-}
-
-.nav-links {
-  display: flex;
-  align-items: center;
-}
-
-.item-links:not(:last-child) {
-  margin-right: 50px;
-}
-
-.nav-links.header-links {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -77,6 +59,8 @@ body {
 }
 
 header {
+  padding-bottom: 24px;
+  padding-top: 25px;
   background: #ffffff;
 }
 
@@ -150,7 +134,28 @@ button:hover {
   background: var(--accent-color);
 }
 
-/*main*/
+/*main index*/
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.item-links:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-links.header-links {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .title2 {
   color: var(--main-fonts-color);
   font-weight: 700;
@@ -181,106 +186,6 @@ button:hover {
   background-color: var(--sec-background-color);
 }
 
-/*footer*/
-
-footer {
-  background-color: var(--top-bottom-background-color);
-}
-.adress-footer {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.14;
-  color: #ffffff;
-}
-
-.contacts-footer {
-  text-decoration: none;
-  font-style: normal;
-  color: var(--secondary-fonts-color);
-}
-
-/*Portfolio*/
-.visually-hidden {
-  display: none;
-  position: absolute;
-  clip: rect(0000);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-}
-.descrip-portfolio {
-  color: var(--main-fonts-color);
-  font-size: 18px;
-  line-height: 2;
-}
-.project-name-p {
-  color: var(--secondary-fonts-color);
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.03em;
-}
-
-.portfolio-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
-
-.portfolio-items:not(:last-child) {
-  margin-right: 8px;
-}
-.button {
-  padding: 6px 22px;
-}
-.card-set {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
-}
-
-.card-set-items {
-  flex-basis: calc(100% / 3-30px);
-  margin-left: 30px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
-
-.descrip-portfolio,
-.project-name-p {
-  padding-left: 24px;
-}
-
-.descrip-portfolio {
-  padding-top: 20px;
-  padding-bottom: 4px;
-}
-.project-name-p {
-  padding-bottom: 20px;
-}
-
-.footer-list {
-  display: inline-block;
-}
-
-.contact-footers-item {
-  display: inline-block;
-  margin-bottom: 9px;
-  margin-top: 9px;
-}
-
-.footer-phone {
-  margin-bottom: 60px;
-}
-
-.footer .logo {
-  display: block;
-}
-
 .main {
   margin-top: 24px;
   margin-bottom: 78px;
@@ -292,11 +197,6 @@ footer {
 
 .footer {
   padding: 60px 0;
-}
-
-header {
-  padding-bottom: 24px;
-  padding-top: 25px;
 }
 
 .hero {
@@ -370,3 +270,103 @@ button.button-hero {
   margin-right: auto;
 }
 
+.project-name-p {
+  padding-bottom: 20px;
+}
+
+/*footer*/
+
+footer {
+  background-color: var(--top-bottom-background-color);
+}
+.adress-footer {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #ffffff;
+}
+
+.contacts-footer {
+  text-decoration: none;
+  font-style: normal;
+  color: var(--secondary-fonts-color);
+}
+
+.footer-list {
+  display: inline-block;
+}
+
+.contact-footers-item {
+  display: inline-block;
+  margin-bottom: 9px;
+  margin-top: 9px;
+}
+
+.footer-phone {
+  margin-bottom: 60px;
+}
+
+.footer .logo {
+  display: block;
+}
+
+/*Portfolio*/
+.visually-hidden {
+  display: none;
+  position: absolute;
+  clip: rect(0000);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+.descrip-portfolio {
+  color: var(--main-fonts-color);
+  font-size: 18px;
+  line-height: 2;
+}
+
+.descrip-portfolio {
+  padding-top: 20px;
+  padding-bottom: 4px;
+}
+.project-name-p {
+  color: var(--secondary-fonts-color);
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.portfolio-items:not(:last-child) {
+  margin-right: 8px;
+}
+.button {
+  padding: 6px 22px;
+}
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.card-set-items {
+  flex-basis: calc(100% / 3-30px);
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.descrip-portfolio,
+.project-name-p {
+  padding-left: 24px;
+}

@@ -109,6 +109,13 @@ header {
   color: #ffffff;
 }
 
+/*Styles for buttons*/
+button.button-hero {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
 .button-hero {
   color: var(--main-bck-color);
   background: var(--accent-color);
@@ -207,11 +214,6 @@ button:hover {
 .main-section {
   padding-bottom: 9px;
   padding-top: 94px;
-}
-button.button-hero {
-  display: block;
-  margin: 0 auto;
-  margin-top: 30px;
 }
 
 .main-items {

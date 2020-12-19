@@ -195,24 +195,6 @@ button:hover {
   display: flex;
 }
 
-.footer {
-  padding-top: 60px;
-}
-
-.footer-list {
-  margin-top: 20px;
-  margin-bottom: 60px;
-}
-
-.footer-items {
-  margin-bottom: 9px;
-}
-
-.mail-footer {
-  display: block;
-  margin-bottom: 9px;
-}
-
 .hero {
   padding-top: 200px;
   padding-bottom: 280px;
@@ -296,9 +278,24 @@ button.button-hero {
 
 /*footer*/
 
-footer {
+.footer {
+  padding-top: 60px;
   background-color: var(--top-bottom-background-color);
 }
+.footer-list {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.footer-items {
+  margin-bottom: 9px;
+}
+
+.mail-footer {
+  display: block;
+  margin-bottom: 9px;
+}
+
 .adress-footer {
   text-decoration: none;
   font-style: normal;

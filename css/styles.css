@@ -105,8 +105,14 @@ header {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: #ffffff;
+  justify-content: center;
+  margin: auto;
+}
+
+.hero {
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 
 /*Styles for buttons*/
@@ -205,15 +211,6 @@ button:hover {
 
 .main-list {
   display: flex;
-}
-
-.hero {
-  padding-top: 200px;
-  padding-bottom: 280px;
-}
-.hero-h {
-  justify-content: center;
-  margin: auto;
 }
 
 .main-section {

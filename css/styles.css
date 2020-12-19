@@ -202,11 +202,12 @@ button:hover {
 
 .main-section2 {
   background-color: var(--sec-background-color);
+  padding-bottom: 78px;
+  padding-top: 94px;
 }
 
 .main {
   margin-top: 24px;
-  margin-bottom: 78px;
 }
 
 .main-list {
@@ -239,10 +240,6 @@ button:hover {
 .main-section1 {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.main-section2 {
-  padding-top: 94px;
 }
 
 .title2 {

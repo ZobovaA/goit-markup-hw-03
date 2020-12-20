@@ -215,7 +215,6 @@ button:hover {
 }
 
 .main-section {
-  padding-bottom: 9px;
   padding-top: 94px;
 }
 
@@ -280,11 +279,11 @@ button:hover {
 
 .footer {
   padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--top-bottom-background-color);
 }
 .footer-list {
   margin-top: 20px;
-  margin-bottom: 60px;
 }
 
 .footer-items {

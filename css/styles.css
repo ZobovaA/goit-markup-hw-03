@@ -62,6 +62,7 @@ header {
   padding-bottom: 24px;
   padding-top: 25px;
   background: #ffffff;
+  border: 1px solid #ececec;
 }
 
 .header-contacts {
@@ -204,10 +205,6 @@ button:hover {
   background-color: var(--sec-background-color);
   padding-bottom: 78px;
   padding-top: 94px;
-}
-
-.main {
-  margin-top: 24px;
 }
 
 .main-list {

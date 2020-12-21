@@ -275,6 +275,7 @@ button:hover {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--top-bottom-background-color);
+  font-family: "Roboto", sans-serif;
 }
 .footer-list {
   margin-top: 20px;
@@ -302,6 +303,7 @@ button:hover {
   text-decoration: none;
   font-style: normal;
   color: var(--secondary-fonts-color);
+  font-family: "Roboto", sans-serif;
 }
 
 .footer-list {

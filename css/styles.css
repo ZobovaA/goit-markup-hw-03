@@ -351,6 +351,10 @@ button:hover {
   margin-bottom: 50px;
 }
 
+.portfolio-container {
+  padding-bottom: 94px;
+}
+
 .portfolio-items:not(:last-child) {
   margin-right: 8px;
 }
@@ -375,6 +379,7 @@ button:hover {
 
 .portfolio-info {
   padding: 20px 24px;
+  font-family: "Roboto", sans-serif;
 }
 
 .descrip-portfolio {
